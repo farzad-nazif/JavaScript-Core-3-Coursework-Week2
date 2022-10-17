@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(127, 217, 255);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+h1 {
+  justify-self: center;
+  align-self: center;
+}
+#addBtn {
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+  border-radius: 2rem;
+  justify-self: center;
+  align-self: center;
+  margin: 1.5rem;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+}
+#addBtn:hover {
+  cursor: pointer;
+  background-color: rgb(215, 241, 252);
+  color: red;
+}
+#deleteBtn {
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+  border-radius: 2rem;
+  justify-self: center;
+  align-self: center;
+  margin: 1.5rem;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+}
+#deleteBtn:hover {
+  cursor: pointer;
+  background-color: rgb(215, 241, 252);
+  color: red;
+}
+.img {
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8rem;
+}
+#listHolder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto, minmax(200px, 1fr));
+}
+.li {
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8rem;
+  list-style-type: none;
+}
